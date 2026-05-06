@@ -1,6 +1,7 @@
 import { useQuery } from "@tanstack/react-query";
 import { LogOut } from "lucide-react";
 import { useState } from "react";
+import { useNavigate } from "react-router-dom";
 import { BuildingMap } from "@/components/BuildingMap";
 import { BuildingTable } from "@/components/BuildingTable";
 import { DemoBanner } from "@/components/DemoBanner";
@@ -13,6 +14,7 @@ import { supabase } from "@/lib/supabase";
 import type { BuildingRow, ComplianceDetails } from "@/types/database.types";
 
 export function Dashboard() {
+  const navigate = useNavigate();
   const [selectedId, setSelectedId] = useState<string | null>(null);
   const [mobileView, setMobileView] = useState<"list" | "map">("list");
   const mapToken = import.meta.env.VITE_MAPBOX_ACCESS_TOKEN ?? "";
@@ -46,7 +48,7 @@ export function Dashboard() {
 
   async function signOut() {
     await supabase.auth.signOut();
-    window.location.href = "/login";
+    navigate("/login", { replace: true });
   }
 
   return (
