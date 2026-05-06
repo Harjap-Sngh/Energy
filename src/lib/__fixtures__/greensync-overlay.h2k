@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<HouseFile application="greensync-fixture">
+  <GreenSyncCompliance>
+    <FullAddress>987 Demo Ave NW, Calgary, AB</FullAddress>
+    <WallEffectiveRSI>6.25</WallEffectiveRSI>
+    <WindowU>1.2</WindowU>
+    <AirChangeRate>1.5</AirChangeRate>
+    <Latitude>51.065</Latitude>
+    <Longitude>-114.08</Longitude>
+  </GreenSyncCompliance>
+</HouseFile>

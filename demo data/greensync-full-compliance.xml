@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<HouseFile application="greensync-demo" version="dummy">
+  <GreenSyncCompliance>
+    <FullAddress>Calgary Tower — 101 9 Ave SW, Calgary, AB</FullAddress>
+    <WallEffectiveRSI>5.0</WallEffectiveRSI>
+    <WindowU>1.1</WindowU>
+    <AirChangeRate>2.0</AirChangeRate>
+    <Latitude>51.0444</Latitude>
+    <Longitude>-114.0631</Longitude>
+  </GreenSyncCompliance>
+</HouseFile>

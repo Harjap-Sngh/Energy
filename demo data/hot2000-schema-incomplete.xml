@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<HouseFile application="HOT2000" version="demo">
+  <!-- Well-formed XML, but missing required HOT2000 cues: BlowerTest, envelope Wall RSI, Window glazing. -->
+  <ProgramInformation>
+    <File>
+      <Identification>Schema demo — intentionally incomplete House subtree</Identification>
+    </File>
+    <Weather>
+      <Region>
+        <English>Alberta</English>
+      </Region>
+      <Location>
+        <English>Beltline Calgary</English>
+      </Location>
+    </Weather>
+  </ProgramInformation>
+  <House/>
+</HouseFile>

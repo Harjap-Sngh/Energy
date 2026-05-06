@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<HouseFile application="greensync-demo" version="dummy">
+  <GreenSyncCompliance>
+    <FullAddress>Chinook Centre area — demo pin, Calgary, AB</FullAddress>
+    <WallEffectiveRSI>3.2</WallEffectiveRSI>
+    <WindowU>1.8</WindowU>
+    <AirChangeRate>4.5</AirChangeRate>
+    <Latitude>51.0022</Latitude>
+    <Longitude>-114.0740</Longitude>
+  </GreenSyncCompliance>
+</HouseFile>

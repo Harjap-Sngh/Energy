@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<HouseFile application="greensync-demo" version="dummy">
+  <GreenSyncCompliance>
+    <FullAddress>Olympic Plaza — 228 8 Ave SE, Calgary, AB</FullAddress>
+    <WallEffectiveRSI>5.0</WallEffectiveRSI>
+    <WindowU>1.55</WindowU>
+    <AirChangeRate>2.0</AirChangeRate>
+    <Latitude>51.0461</Latitude>
+    <Longitude>-114.0624</Longitude>
+  </GreenSyncCompliance>
+</HouseFile>

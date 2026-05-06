@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<HouseFile application="HOT2000" version="demo">
+  <ProgramInformation>
+    <File>
+      <Identification>Portfolio mini house</Identification>
+    </File>
+    <Weather>
+      <Region>
+        <English>Alberta</English>
+      </Region>
+      <Location>
+        <English>Calgary Downtown</English>
+      </Location>
+    </Weather>
+  </ProgramInformation>
+  <House>
+    <NaturalAirInfiltration>
+      <Specifications>
+        <BlowerTest airChangeRate="3.2" leakageArea="0" />
+      </Specifications>
+    </NaturalAirInfiltration>
+    <Components>
+      <Wall id="W1">
+        <Construction corners="4" intersections="4">
+          <Type rValue="3.521" nominalInsulation="R20_eff" />
+        </Construction>
+      </Wall>
+      <Wall id="W2">
+        <Components>
+          <Window id="G1">
+            <Construction energyStar="">
+              <Type rValue="0.8928" />
+            </Construction>
+            <Measurements headerHeight="0" height="1.5" width="1.2" />
+          </Window>
+        </Components>
+      </Wall>
+    </Components>
+  </House>
+</HouseFile>
